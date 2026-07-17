@@ -382,17 +382,21 @@ color:black;
  height:100%; */
   width:100%;
   padding:0 2rem;
-  filter:grayscale(1);
+  /* filter:grayscale(1); */
   transition:all 1s;
   
  
 }
 .user-image img{
-  width:320px;
-  height:auto;
+  width:auto;
+  height: 430px;
+  max-width: 100%;
   z-index:3;
+    object-fit: contain;
   
 }
+
+
 
 .line{
   background-color: #0087ca;
@@ -490,6 +494,7 @@ color:black;
   .user-image img{
     padding-top:80px;
     padding-left:80px;
+      object-fit: contain;
   }
   .line{
     display: none;
@@ -1677,3 +1682,19 @@ opacity: 1;
     color:#fff;
 }
 
+/* 180 degree movement */
+/* .viewer-180.user-image{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:visible;
+  perspective:1000px;
+  cursor:pointer;
+}
+.viewer-180.user-image img{
+  width:auto !important;
+  height:350px !important;
+  max-width:100%;
+  object-fit:contain;
+  pointer-events:none;
+} */

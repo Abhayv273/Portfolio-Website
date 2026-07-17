@@ -317,12 +317,22 @@ document.querySelectorAll(".btn-project").forEach(btn=>{
     };
 });
 
-// document.querySelector(".close").onclick=()=>{
-//     modal.style.display="none";
-// };
 
-// window.onclick=(e)=>{
-//     if(e.target===modal){
-//         modal.style.display="none";
-//     }
-// };
+
+// drag 180 degree movemnt
+// const viewer = document.getElementById('viewer');
+// const img = document.getElementById('stickerImg');
+
+// viewer.addEventListener('mousemove', (e) => {
+//   const rect = viewer.getBoundingClientRect();
+//   const mouseX = e.clientX - rect.left;   // container ke andar mouse ki position
+//   const width = rect.width;
+
+//   let rotation = (mouseX / width) * 180;
+
+//   // Clamp 0 se 180 ke beech
+//   if(rotation > 180) rotation = 180;
+//   if(rotation < 0) rotation = 0;
+
+//   img.style.transform = `rotateY(${rotation}deg)`;
+// });
