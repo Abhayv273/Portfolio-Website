@@ -278,22 +278,22 @@ form.addEventListener("submit", async function (e) {
 
 // read more
 
-const projects = {
-    wanderlust:{
-        title:"WanderLust",
-        description:"A full-stack travel listing platform inspired by Airbnb.",
-        tech:["Node.js","Express","MongoDB","EJS","Cloudinary","MapTiler"],
-        features:[
-            "Authentication",
-            "CRUD Listings",
-            "Reviews & Ratings",
-            "Interactive Maps",
-            "Image Upload"
-        ],
-        github:"https://github.com/...",
-        live:"https://wanderlust-explore.onrender.com/"
-    }
-};
+// const projects = {
+//     wanderlust:{
+//         title:"WanderLust",
+//         description:"A full-stack travel listing platform inspired by Airbnb.",
+//         tech:["Node.js","Express","MongoDB","EJS","Cloudinary","MapTiler"],
+//         features:[
+//             "Authentication",
+//             "CRUD Listings",
+//             "Reviews & Ratings",
+//             "Interactive Maps",
+//             "Image Upload"
+//         ],
+//         github:"https://github.com/...",
+//         live:"https://wanderlust-explore.onrender.com/"
+//     }
+// };
 
 const modal=document.getElementById("projectModal");
 
@@ -317,12 +317,12 @@ document.querySelectorAll(".btn-project").forEach(btn=>{
     };
 });
 
-document.querySelector(".close").onclick=()=>{
-    modal.style.display="none";
-};
+// document.querySelector(".close").onclick=()=>{
+//     modal.style.display="none";
+// };
 
-window.onclick=(e)=>{
-    if(e.target===modal){
-        modal.style.display="none";
-    }
-};
+// window.onclick=(e)=>{
+//     if(e.target===modal){
+//         modal.style.display="none";
+//     }
+// };
