@@ -805,6 +805,12 @@ color:black;
   background-position: center;
   background-repeat: no-repeat;
 }
+.project3{
+  background-image:url(./image/p3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .project-card::after{
      content:"";
@@ -915,8 +921,8 @@ opacity: 1;
 #project2{
   margin-left:110px;
 }
-#project4{
-  margin-left:110px;
+#project3{
+  margin-right:110px;
 }
 
 @media (max-width:800px){
@@ -966,7 +972,7 @@ opacity: 1;
   #project2{
       margin-left:0;
   }
-  #project4{
+  #project3{
       margin-left:0;
   }
   .projectskills{
